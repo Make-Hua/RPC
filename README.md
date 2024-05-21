@@ -142,7 +142,7 @@ index3 name:kun kun
 
 #### [01.环境搭建](https://github.com/Make-Hua/RPC/blob/master/explain/01.%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 
-#### [02.MprpcConfig模块]()
+#### [02.MprpcConfig模块](https://github.com/Make-Hua/RPC/blob/master/explain/02.MprpcConfig%E6%A8%A1%E5%9D%97.md)
 
 #### [**03.RpcProvider模块**]()
 

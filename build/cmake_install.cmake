@@ -1,4 +1,4 @@
-# Install script for directory: /home/makehua/projects/mprpc/RPC
+# Install script for directory: /home/makehua/projects/mprpc/mprpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/makehua/projects/mprpc/RPC/build/src/cmake_install.cmake")
-  include("/home/makehua/projects/mprpc/RPC/build/example/cmake_install.cmake")
+  include("/home/makehua/projects/mprpc/mprpc/build/src/cmake_install.cmake")
+  include("/home/makehua/projects/mprpc/mprpc/build/example/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/makehua/projects/mprpc/RPC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/makehua/projects/mprpc/mprpc/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

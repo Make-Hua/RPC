@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/makehua/projects/mprpc/RPC/example/friend.pb.cc" "/home/makehua/projects/mprpc/RPC/build/example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o"
-  "/home/makehua/projects/mprpc/RPC/example/callee/friendservice.cc" "/home/makehua/projects/mprpc/RPC/build/example/callee/CMakeFiles/provider.dir/friendservice.cc.o"
+  "/home/makehua/projects/mprpc/mprpc/example/friend.pb.cc" "/home/makehua/projects/mprpc/mprpc/build/example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o"
+  "/home/makehua/projects/mprpc/mprpc/example/callee/friendservice.cc" "/home/makehua/projects/mprpc/mprpc/build/example/callee/CMakeFiles/provider.dir/friendservice.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/makehua/projects/mprpc/RPC/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake"
+  "/home/makehua/projects/mprpc/mprpc/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

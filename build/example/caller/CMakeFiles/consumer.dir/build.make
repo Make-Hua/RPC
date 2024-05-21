@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/makehua/projects/mprpc/RPC
+CMAKE_SOURCE_DIR = /home/makehua/projects/mprpc/mprpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/makehua/projects/mprpc/RPC/build
+CMAKE_BINARY_DIR = /home/makehua/projects/mprpc/mprpc/build
 
 # Include any dependencies generated for this target.
 include example/caller/CMakeFiles/consumer.dir/depend.make
@@ -59,16 +59,16 @@ include example/caller/CMakeFiles/consumer.dir/flags.make
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../example/caller/callfriendservice.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/mprpc/RPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/makehua/projects/mprpc/RPC/example/caller/callfriendservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/mprpc/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/makehua/projects/mprpc/mprpc/example/caller/callfriendservice.cc
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/callfriendservice.cc.i"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/mprpc/RPC/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/mprpc/mprpc/example/caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/callfriendservice.cc.s"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/mprpc/RPC/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/mprpc/mprpc/example/caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.requires:
 
@@ -83,16 +83,16 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.provides.build: ex
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/caller/CMakeFiles/consumer.dir/flags.make
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: ../example/friend.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/mprpc/RPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/makehua/projects/mprpc/RPC/example/friend.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makehua/projects/mprpc/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/makehua/projects/mprpc/mprpc/example/friend.pb.cc
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/friend.pb.cc.i"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/mprpc/RPC/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makehua/projects/mprpc/mprpc/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/friend.pb.cc.s"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/mprpc/RPC/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makehua/projects/mprpc/mprpc/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
 
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.requires:
 
@@ -118,8 +118,8 @@ consumer_EXTERNAL_OBJECTS =
 ../bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
 ../bin/consumer: ../lib/libmprpc.a
 ../bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makehua/projects/mprpc/RPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/consumer"
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makehua/projects/mprpc/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/consumer"
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/caller/CMakeFiles/consumer.dir/build: ../bin/consumer
@@ -132,10 +132,10 @@ example/caller/CMakeFiles/consumer.dir/requires: example/caller/CMakeFiles/consu
 .PHONY : example/caller/CMakeFiles/consumer.dir/requires
 
 example/caller/CMakeFiles/consumer.dir/clean:
-	cd /home/makehua/projects/mprpc/RPC/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
+	cd /home/makehua/projects/mprpc/mprpc/build/example/caller && $(CMAKE_COMMAND) -P CMakeFiles/consumer.dir/cmake_clean.cmake
 .PHONY : example/caller/CMakeFiles/consumer.dir/clean
 
 example/caller/CMakeFiles/consumer.dir/depend:
-	cd /home/makehua/projects/mprpc/RPC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makehua/projects/mprpc/RPC /home/makehua/projects/mprpc/RPC/example/caller /home/makehua/projects/mprpc/RPC/build /home/makehua/projects/mprpc/RPC/build/example/caller /home/makehua/projects/mprpc/RPC/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makehua/projects/mprpc/mprpc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makehua/projects/mprpc/mprpc /home/makehua/projects/mprpc/mprpc/example/caller /home/makehua/projects/mprpc/mprpc/build /home/makehua/projects/mprpc/mprpc/build/example/caller /home/makehua/projects/mprpc/mprpc/build/example/caller/CMakeFiles/consumer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/caller/CMakeFiles/consumer.dir/depend
 

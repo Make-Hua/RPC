@@ -1,4 +1,4 @@
-# Install script for directory: /home/makehua/projects/mprpc/RPC/example/caller
+# Install script for directory: /home/makehua/projects/mprpc/mprpc/example/caller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

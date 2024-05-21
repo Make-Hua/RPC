@@ -41,7 +41,6 @@ void RpcProvider::NotifyService(google::protobuf::Service *service)
     }
     service_info.m_service = service;
     m_serviceMap.insert({service_name, service_info});
-
 }
 
 // 启动 rpc 服务节点，开始提供 rpc 远程调用服务
@@ -118,8 +117,8 @@ herder_size(4字节) + herder_str + arges_str
 所以我们直接按照二进制的存储方式 
 */
 // 建立连接用户的读写事件回调const muduo::net::TcpConnectionPtr&, muduo::net::Buffer*, muduo::Timestamp
-void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn, 
-                            muduo::net::Buffer* buffer, 
+void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
+                            muduo::net::Buffer* buffer,
                             muduo::Timestamp)
 {
     // 从网络上接受的远程 rpc 调用请求的字符流   Login args
@@ -145,7 +144,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     }
     else
     {
-        std::cout << "rpc_header_str:" << rpc_header_str << "parse error!" << std::endl;
+        LOG_ERR("rec_header_str:%sparse error!", rpc_header_str.c_str());
         return ;
     }
 
@@ -166,14 +165,15 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     auto it = m_serviceMap.find(service_name);
     if (it == m_serviceMap.end())
     {
-        std::cout << service_name << "is not exist!" << std::endl;
+        LOG_ERR("%sis not exist", service_name.c_str());
         return ;
     }
 
     auto mit = it->second.m_mathodMap.find(method_name);
     if (mit == it->second.m_mathodMap.end())
     {
-        std::cout << service_name << ":" << method_name << "is not exist!" << std::endl;
+        
+        LOG_ERR("%s:%sis not exist", service_name.c_str(), method_name.c_str());
         return ;
     }
 
@@ -192,7 +192,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     google::protobuf::Message *request = service->GetRequestPrototype(method).New();
     if (!request->ParseFromString(args_str))
     {
-        std::cout << "request parse error, content:" << args_str<< std::endl;
+        LOG_ERR("request parse error! content:%s", args_str.c_str());
         return ;
     }
     google::protobuf::Message *response = service->GetResponsePrototype(method).New();
@@ -223,7 +223,7 @@ void RpcProvider::SendRpcResponse(const muduo::net::TcpConnectionPtr& conn, goog
     }
     else
     {
-        std::cout << "serialize response_str error!" << std::endl;
+        LOG_ERR("serialize response_str error!");
     }
 
     // 模拟 http 短链接服务，由 rpcprovider 主动断开连接

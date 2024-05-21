@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example 
+CXX_INCLUDES = -I/home/makehua/projects/mprpc/mprpc/src/include -I/home/makehua/projects/mprpc/mprpc/example 
 
