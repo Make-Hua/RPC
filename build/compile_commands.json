@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/makehua/projects/mprpc/RPC/src/mprpcapplication.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/makehua/projects/mprpc/RPC/src/mprpcconfig.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/makehua/projects/mprpc/RPC/src/rpcheader.pb.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/makehua/projects/mprpc/RPC/src/rpcprovider.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/makehua/projects/mprpc/RPC/src/mprpcchannel.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/makehua/projects/mprpc/RPC/src/mprpccontroller.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/makehua/projects/mprpc/RPC/src/logger.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/logger.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/makehua/projects/mprpc/RPC/src/zookeeperutil.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/makehua/projects/mprpc/RPC/example/callee/friendservice.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/makehua/projects/mprpc/RPC/example/friend.pb.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/example/friend.pb.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/example/caller",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/makehua/projects/mprpc/RPC/example/caller/callfriendservice.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/makehua/projects/mprpc/RPC/build/example/caller",
+  "command": "/usr/bin/g++   -I/home/makehua/projects/mprpc/RPC/src/include -I/home/makehua/projects/mprpc/RPC/example  -g   -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/makehua/projects/mprpc/RPC/example/friend.pb.cc",
+  "file": "/home/makehua/projects/mprpc/RPC/example/friend.pb.cc"
+}
+]
