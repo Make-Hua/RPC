@@ -150,6 +150,6 @@ index3 name:kun kun
 
 #### [**05.MprpcChannel模块**]()
 
-#### [**06.Logger模块**]()
+#### [**06.Logger模块**](https://github.com/Make-Hua/RPC/blob/master/explain/06.Logger%E6%A8%A1%E5%9D%97.md)
 
 #### [**07.ZooKeeper模块**](https://github.com/Make-Hua/RPC/blob/master/explain/07.zookeeper%E6%A8%A1%E5%9D%97.md)
