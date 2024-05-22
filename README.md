@@ -26,7 +26,7 @@
 
 #### RPC 通信原理
 
-![](https://github.com/Make-Hua/RPC/blob/master/image/RPC%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86%E5%9B%BE.png)
+![](https://github.com/Make-Hua/RPC/blob/master/image/rpc-%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86%E5%9B%BE.png)
 
 #### 代码交互
 
