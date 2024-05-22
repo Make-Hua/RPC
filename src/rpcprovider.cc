@@ -183,7 +183,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     //                    ::fixbug::LoginResponse* response,        // 响应参数需要写入
     //                    ::google::protobuf::Closure* done)
 
-    // 获取 service 对象(new UserService) and 获取 mrthod 对象(Login)
+    // 获取 service 对象(new UserService) and 获取 mrthod 对象(具体rpc方法)
     google::protobuf::Service* service = it->second.m_service;
     const google::protobuf::MethodDescriptor *method = mit->second;
 
