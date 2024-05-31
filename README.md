@@ -77,7 +77,7 @@ ubuntu@ ~$ ps -aux | grep zookeeper
 ubuntu% ./zkCli.sh
 ```
 
-### 七、MPRPC框架示例
+### 七、RPC框架示例
 
 #### 在项目文件的`bin`目录下有提供者和消费者两个文件，分别启动
 
