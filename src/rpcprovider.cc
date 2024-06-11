@@ -206,6 +206,21 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     // new UserService().Login(constroller, request, response, done)
     service->CallMethod(method, nullptr, request, response, done);
 
+    /* 上述 CallMethod 其实最终执行的是具体的 实现方法
+    void FriendServiceRpc::CallMethod(const ::google::protobuf::MethodDescriptor* method,
+                                  ::google::protobuf::RpcController* controller,
+                                  const ::google::protobuf::Message* request,
+                                  ::google::protobuf::Message* response,
+                                  ::google::protobuf::Closure* done) {
+    // 调用具体的方法实现
+    if (method->name() == "GetFriendsList") {
+        // 实际调用 GetFriendsList 方法
+        GetFriendsList(controller, static_cast<const GetFriendsListRequest*>(request),
+                    static_cast<GetFriendsListResponse*>(response), done);
+    }
+    }
+    */
+
 
 }
 
